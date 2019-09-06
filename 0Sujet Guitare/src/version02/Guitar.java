@@ -3,15 +3,15 @@ package version02;
 public class Guitar {
 	
 	private String serialNumber;
-	private String type;
-	private String builder;
+	private Type type;
+	private Builder builder;
 	private String model;
-	private String backwood;
-	private String topwood;
+	private Wood backwood;
+	private Wood topwood;
 	private double price;
 	
-	public Guitar(String serialNumber, double price, String builder, String model, String type, String backwood,
-			String topwood) {
+	public Guitar(String serialNumber, double price, Builder builder, String model, Type type, Wood backwood,
+			Wood topwood) {
 		this.serialNumber = serialNumber;
 		this.price = price;
 		this.model = model;
@@ -25,11 +25,11 @@ public class Guitar {
 		return serialNumber;
 	}
 
-	public String getType() {
+	public Type getType() {
 		return type;
 	}
 
-	public String getBuilder() {
+	public Builder getBuilder() {
 		return builder;
 	}
 
@@ -37,11 +37,11 @@ public class Guitar {
 		return model;
 	}
 
-	public String getBackwood() {
+	public Wood getBackwood() {
 		return backwood;
 	}
 
-	public String getTopwood() {
+	public Wood getTopwood() {
 		return topwood;
 	}
 
