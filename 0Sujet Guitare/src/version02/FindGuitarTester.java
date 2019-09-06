@@ -13,7 +13,7 @@ public class FindGuitarTester {
 		Guitar whatErinLikes = new Guitar("", 0, Builder.FENDER, "Stratocastor", Type.ELECTRIC, Wood.ALDER, Wood.ALDER);
 		List<Guitar> guitars = inventaire.search(whatErinLikes);
 		if (!guitars.isEmpty()) {
-			System.out.println("Erin, you might like this ");
+			System.out.println("Erin, you might like this :");
 			for (Guitar guitar : guitars) {
 				System.out.println(guitar.getBuilder() + " " + 
 						guitar.getModel() + " " + 
