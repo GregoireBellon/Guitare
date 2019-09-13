@@ -1,3 +1,4 @@
+package version02;
 
 
 import static org.junit.Assert.*;
