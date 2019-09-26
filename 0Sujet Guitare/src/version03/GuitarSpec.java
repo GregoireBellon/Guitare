@@ -17,7 +17,7 @@ public class GuitarSpec {
 		this.num_corde=num_corde;
 	}
 	
-	public boolean matches
+	public boolean matches;
 	public Type getType() {
 		return type;
 	}

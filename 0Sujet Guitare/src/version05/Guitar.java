@@ -1,6 +1,6 @@
-package version04;
+package version05;
 
-public class Guitar {
+public class Guitar extends Instrument{
 	
 	private String serialNumber;
 	private double price;

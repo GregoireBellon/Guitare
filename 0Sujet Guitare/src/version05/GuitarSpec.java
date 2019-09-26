@@ -1,6 +1,6 @@
-package version04;
+package version05;
 
-public class GuitarSpec {
+public class GuitarSpec extends Spec{
 	
 	public final int no_pref_string = -1;
 	private Type type;
