@@ -1,4 +1,4 @@
-package version03;
+package version04;
 
 public class Guitar {
 	
@@ -6,14 +6,14 @@ public class Guitar {
 	private double price;
 	private GuitarSpec spec;
 	
-	public Guitar(int numcorde,String serialNumber, double price, Builder builder, String model, Type type, Wood backwood,
+	public Guitar(String serialNumber, double price, Builder builder, String model, Type type,int numcorde, Wood backwood,
 			Wood topwood) {
 		this.serialNumber = serialNumber;
 		this.price = price;
-		spec = new GuitarSpec(numcorde,type, builder, model, backwood, topwood);
+		spec = new GuitarSpec(builder,model, type, numcorde, backwood, topwood);
 	}
 
-	public Guitar(String serialNumber,Double price, GuitarSpec spec) {
+	public Guitar(String serialNumber, double price, GuitarSpec spec) {
 		this.serialNumber=serialNumber;
 		this.price=price;
 		this.spec=spec;

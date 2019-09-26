@@ -1,4 +1,4 @@
-package exo3;
+package version03;
 
 import static org.junit.Assert.*;
 
